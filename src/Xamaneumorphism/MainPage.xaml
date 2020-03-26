@@ -2,10 +2,10 @@
 <ContentPage BackgroundColor="#f1f3f6" xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:controls="clr-namespace:Xamaneumorphism.Controls"
              xmlns:android="clr-namespace:Xamarin.Forms.PlatformConfiguration.AndroidSpecific;assembly=Xamarin.Forms.Core" mc:Ignorable="d" x:Class="Xamaneumorphism.MainPage">
-    <ContentView Margin="40" Padding="40" VerticalOptions="CenterAndExpand" android:VisualElement.Elevation="10">
+    <controls:NeuContentView Margin="40" Padding="40" VerticalOptions="CenterAndExpand" android:VisualElement.Elevation="10">
         <StackLayout Spacing="32">
             <Label FontAttributes="Bold" TextColor="#28384e" Text="I'm a nice big neumorphic panel with a fancy button in it. Press the button and see a press effect that you've never seen before." />
             <controls:NeuButton BackgroundColor="#f1f3f6" CornerRadius="15" Text="This is Neumorphism!" android:VisualElement.Elevation="10" FontAttributes="Bold" TextColor="#28384e" />
         </StackLayout>
-    </ContentView>
+    </controls:NeuContentView>
 </ContentPage>
